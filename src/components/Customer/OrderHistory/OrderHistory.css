@@ -1,0 +1,174 @@
+.order-historyV890{
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-top:100px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  /* overflow-y: scroll; */
+  height: 600px;
+}
+.order-history-title-V890
+{
+margin: auto;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.order-tableV890 {
+  width: 70%;
+  margin: auto;
+ 
+}
+ 
+.order-tableV890 th,
+.order-tableV890 td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+ 
+.order-tableV890 th {
+  background-color: #6bb313;
+}
+ 
+.order-itemV890:hover {
+  background-color: #f9f9f9;
+}
+ 
+.order-itemV890 .view-invoice-buttonV890 {
+  padding: 8px 12px;
+  background-color: #6bb313;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.order-itemV890 .view-invoice-buttonV890:hover {
+  background-color: black;
+  color: white;
+}
+ 
+.modal-overlayV890 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.modal-contentV890 {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+ 
+.invoice-tableV890 {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+.invoice-tableV890 th,
+.invoice-tableV890 td {
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+ 
+.close-buttonV890 {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #6EC207;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.invoice-tableV890 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+ 
+.invoice-tableV890 th,
+.invoice-tableV890 td {
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid #e0e0e0;
+}
+ 
+.invoice-tableV890 th {
+  background-color: #f0f0f0; /* Light background for headers */
+  font-weight: bold; /* Make headers bold */
+}
+ 
+.invoice-tableV890 tr:hover {
+  background-color: #f9f9f9; /* Highlight row on hover */
+}
+ 
+ 
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+ 
+.pagination-controls button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #6EC207;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.pagination-controls button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+ 
+.order-spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+ 
+.order-history-containerV890{
+  display: flex;
+  margin-right:10px;
+  margin-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.back-button999V890{
+ 
+  margin-top:0px;
+  height:30px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+ 
+.back-button999V890:hover {
+  background-color: #6EC207;
+  color:black;
+}

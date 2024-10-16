@@ -1,0 +1,84 @@
+/* AddProductForm.css */
+ 
+.add-product-form-containerV010 {
+    max-width: 600px; /* Limits the width of the form */
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px; /* Adds padding inside the form container */
+    border: 1px solid #ccc; /* Adds a light gray border */
+    border-radius: 8px; /* Rounds the corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+   
+    
+}
+ 
+.add-product-form-titleV010 {
+    font-size: 24px; /* Larger font for the title */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center aligns the title */
+    color: whitesmoke;
+}
+ 
+.add-product-formV010 {
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Stacks children vertically */
+}
+ 
+.add-product-inputV010,
+.add-product-textareaV010 {
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounds the corners */
+    font-size: 16px; /* Standard font size */
+   
+}
+ 
+.add-product-inputV010:focus,
+.add-product-textareaV010:focus {
+    border-color: #007bff; /* Changes border color on focus */
+    outline: none; /* Removes default outline */
+    
+}
+ 
+.add-product-buttonV010 {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: white;
+    color: #640D5F; 
+    border: none; /* No border */
+    border-radius: 4px; /* Rounds corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Standard font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+ 
+.add-product-buttonV010:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+ 
+.add-product-messageV010 {
+    margin-top: 20px; /* Space above the message */
+    font-size: 16px; /* Standard font size for messages */
+    color: green; /* Green text for success messages */
+    text-align: center; /* Center aligns the message */
+}
+ 
+input, textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    margin-right: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+ 
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

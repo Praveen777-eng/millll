@@ -1,0 +1,294 @@
+/* General Styles */
+.brand-listV030 {
+    height:90vh;
+    overflow-y: auto;
+    border-color: #640D5F;;
+    border: 2px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #640D5F;
+    font-family: "Raleway", sans-serif;
+}
+
+.brand-list-titleV030 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    color: #4535C1; /* Deep Purple for title */
+}
+
+/* Button Styles */
+.add-brand-buttonV030 {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4535C1; /* Deep Purple */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: "Raleway", sans-serif;
+}
+
+.add-brand-buttonV030:hover {
+    background-color: #3780B1; /* Slightly lighter blue */
+}
+
+.back-button124 {
+   /* Space below the button */
+    color: #000; /* Color of the icon */
+    text-decoration: none; /* Remove underline */
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.back-button124:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+/* Card Container Styles */
+.card-containerV030 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 10px; /* Space between cards */
+
+}
+
+/* Individual Brand Card Styles */
+.brand-cardV030 {
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid  #640D5F; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+    font-family: "Raleway", sans-serif;
+
+}
+
+.brand-cardV030:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.brand-logoV030 {
+    max-width: 100px; /* Limit logo size */
+    height: 100px; /* Fixed height for logos */
+    object-fit: contain; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below logo */
+}
+
+/* Brand Name Styles */
+.brand-nameV030 {
+    font-size: 1.25rem; /* Slightly smaller font size */
+    margin: 10px 0;
+    color: #180a84; /* Deep Purple for brand name */
+    font-family: "Raleway", sans-serif;
+}
+
+/* Button Styles within Card */
+.button-containerV030 {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    
+}
+
+.view-buttonV030,
+.update-buttonV030 {
+   
+    background-color: #478CCF; /* Bright Blue for view button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.view-buttonV030:hover {
+    background-color: #367BB0; /* Darker Blue on hover */
+}
+
+.update-buttonV030 {
+    background-color: #4535C1; /* Deep Purple for update button */
+    font-family: "Raleway", sans-serif;
+}
+
+.update-buttonV030:hover {
+    background-color: #3D2EB1; /* Slightly darker purple on hover */
+}
+
+/* Modal Styles */
+.update-brand-modalV030 {
+    background-color: #640D5F;
+    border: 1px solid #640D5F;
+}
+
+.close-modal-buttonV030 {
+    padding: 10px;
+    background-color: #dc3545; /* Red background for close button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-modal-buttonV030:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Search Bar Styles */
+.search-bar-containerV030 {
+    display: flex;                /* Use flexbox for centering */
+    justify-content: center;      /* Center horizontally */
+    margin: 20px 0;              /* Space around the search bar */
+}
+
+.search-barV030 {
+    padding: 10px;
+    width: 90%;                   /* Set width to 90% */
+    max-width: 400px;            /* Max width for larger screens */
+    border: 1px solid #640D5F;      /* Light Gray border */
+    border-radius: 10px;          /* Rounded corners */
+    font-size: 16px;             /* Font size */
+}
+
+
+
+
+/* General Styles */
+.brand-listV030 {
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #eceff1; /* Light background */
+    
+}
+
+
+
+/* Individual Brand Card Styles */
+.brand-cardV030 {
+    background-color: #eceff1; /* Light background */
+    border-radius: 30px; /* Rounded corners */
+    text-align: center;
+    padding: 15px;
+    max-width: 245px; /* Set max width */
+    margin: 0 auto; /* Center the card */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1),
+                -20px -20px 20px rgba(255, 255, 255, 0.2); /* Custom shadow */
+}
+
+.brand-logoV030 {
+    width: 100px; /* Adjust for mobile */
+    height: 100px; /* Adjust for mobile */
+    overflow: hidden; /* Prevent overflow */
+    margin: 0 auto 10px; /* Center with margin */
+}
+
+.brand-nameV030 {
+    font-family: 'Fredoka', sans-serif; /* Use imported font */
+    font-size: 1.5rem; /* Larger font size */
+    color: #8c9309; /* Deep Purple for brand name */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Button Styles */
+.view-buttonV030,
+.update-buttonV030 {
+    font-family: 'Fredoka', sans-serif; /* Use imported font */
+    
+    
+    
+    border-radius: 25px; /* Rounded buttons */
+    color: white;
+    border: 0;
+    
+    background-color: #640D5F; /* Primary color */
+    transition: ease all 0.3s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-buttonV030:hover,
+.update-buttonV030:hover {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.view-buttonV030:active,
+.update-buttonV030:active {
+    transform: scale(0.9);
+    box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-containerV030 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Set to 5 cards per row */
+    gap: 10px; /* Space between cards */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .card-containerV030 {
+        grid-template-columns: repeat(4, 1fr); /* 4 cards per row for medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .card-containerV030 {
+        grid-template-columns: repeat(3, 1fr); /* 3 cards per row for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-containerV030 {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .card-containerV030 {
+        grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile */
+    }
+}
+
+
+.view-buttonV030 {
+    font-family: 'Fredoka', sans-serif; /* Use imported font */
+    border-radius: 25px; /* Rounded buttons */
+    color: white;
+    border: 0;
+    background-color: #640D5F; /* Primary color */
+    padding: 10px 15px; /* Add padding for better alignment */
+    text-align: center; /* Center text horizontally */
+    display: inline-flex; /* Use flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    transition: ease all 0.3s;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-buttonV030:hover,
+.update-buttonV030:hover {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.view-buttonV030:active,
+.update-buttonV030:active {
+    transform: scale(0.9);
+    box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.arrow-back-124{
+    display: flex;
+    justify-content: center;
+}

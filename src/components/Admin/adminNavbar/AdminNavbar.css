@@ -1,0 +1,92 @@
+.admin-navbar {
+    background-color: #640D5F;
+    padding: 10px;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.menu-buttons {
+    display: flex;
+}
+
+.menu-button {
+    margin-left: 55px; /* Increased margin for extra gap */
+    color: white;
+    text-decoration: none;
+    background: none; /* Remove button background */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor on hover */
+    transition: color 0.3s; /* Smooth transition for color change */
+    font-family: "Raleway", sans-serif;
+}
+
+.menu-button:hover {
+    font-style: italic;
+    color: rgb(192, 211, 227);
+}
+
+.user-name {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.profile-icon {
+    position: relative; /* Position relative for dropdown placement */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-left: 45px; /* Spacing from other buttons */
+    margin-right: 10px;
+   
+}
+
+.dropdown {
+    position: absolute; /* Position dropdown below the icon */
+    background-color: #640D5F;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    right: 0; /* Align dropdown to the right */
+    color: white;
+    z-index: 10; /* Ensure it appears above other elements */
+    display: none; /* Initially hidden */
+    font-family: "Raleway", sans-serif;
+}
+
+.profile-icon:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-item {
+    padding: 10px 15px; /* Padding for dropdown items */
+    cursor: pointer; /* Change cursor on hover */
+    color: white; /* Text color */
+    font-family: "Raleway", sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+    color: #640D5F; /* Change text color on hover */
+}
+.menu-button {
+    color: whitesmoke; /* Default color */
+    text-decoration: none;
+    font-family: Arial, sans-serif; /* Default font */
+  }
+  
+  .menu-button.active {
+    font-style: italic; /* Roman style for active menu */
+    font-weight: bold; /* Make it bold to stand out */
+    color: #007bff; /* Change color for active item */
+    font-family: "Raleway", sans-serif;
+  }
+  

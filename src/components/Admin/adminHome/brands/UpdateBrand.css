@@ -1,0 +1,96 @@
+/* UpdateBrand.css */
+
+/* Container for the Update Brand Form */
+.update-brand-containerV028 {
+    
+    color: whitesmoke;
+    padding: 20px;
+   background-color: #640D5F;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styles */
+.update-brand-titleV028 {
+    text-align: center;
+    font-size: 2rem; /* Increased font size for better visibility */
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+/* Form Styles */
+.update-brand-formV028 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Styles */
+.update-brand-inputV028 {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none; /* Removed border */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff; /* Added background color */
+    
+}
+
+/* File Input Styles */
+.update-brand-fileV028 {
+    margin-bottom: 15px;
+}
+
+/* Logo Display Styles */
+.update-brand-logoV028 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Image Styles */
+.update-brand-imgV028 {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Current Logo Text Styles */
+.update-brand-current-logoV028 {
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+
+/* Checkbox Label Styles */
+.update-brand-checkbox-labelV028 {
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+
+/* Checkbox Styles */
+.update-brand-checkboxV028 {
+    margin-right: 5px;
+}
+
+/* Button Styles */
+.update-brand-buttonV028 {
+    padding: 10px;
+    background-color: #4535C1; /* Deep Purple for update button */
+    color: white;
+    border: none; /* Removed border */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.update-brand-buttonV028:hover {
+    background-color: #367BB0; /* Darker Blue on hover */
+}
+
+/* Message Styles */
+.update-brand-messageV028 {
+    text-align: center;
+    margin-top: 15px;
+    color: #28a745;
+}

@@ -1,0 +1,104 @@
+.update-product-formV009 {
+   
+    position: relative; /* Ensure it has a positioning context */
+    z-index: 10; /* Higher value to bring it to the front */
+    color: whitesmoke;
+    
+}
+
+.update-product-form-elementV009 {
+    display: flex;
+    flex-direction: column;
+    background-color: #640D5F;
+   
+    
+}
+
+
+.update-product-inputV009,
+.update-product-file-inputV009,
+.update-product-textareaV009 {
+    margin: 10px 0;
+    padding: 10px; /* Slightly increase padding for better touch targets */
+    
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    font-size: 0.9rem; /* Decrease font size for better fit */
+}
+
+.update-product-inputV009:focus,
+.update-product-file-inputV009:focus,
+.update-product-textareaV009:focus {
+    border-color: #007bff; /* Highlight on focus */
+}
+
+.update-product-buttonV009 {
+    background-color: #640D5F;
+    color: whitesmoke;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem; /* Slightly increase button font size */
+}
+
+.update-product-buttonV009:hover {
+    background-color: white;
+    color: #640D5F; /* Darker blue on hover */
+}
+
+.current-image-displayV009 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the image */
+    margin: 10px 0;
+}
+
+.current-image-displayV009 img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; /* Space between image and checkbox */
+}
+
+.current-image-checkboxV009 {
+    display: flex;
+    align-items: center; /* Align checkbox and text vertically */
+    margin-top: 5px; /* Add some space above the checkbox */
+}
+
+.current-image-checkboxV009 input {
+    margin-right: 5px; /* Space between checkbox and label */
+}
+
+.update-product-messageV009 {
+    margin-top: 10px;
+    color: green; /* You can change this to red for error messages */
+}
+.input-group {
+    display: flex;
+    justify-content: space-between; /* Space between the inputs */
+    margin: 10px 0; /* Margin between input groups */
+}
+
+.input-group input {
+    flex: 1; /* Make inputs take equal width */
+    margin-right: 10px; /* Space between inputs */
+}
+
+.input-group input:last-child {
+    margin-right: 0; /* Remove margin for the last input */
+}
+
+/* Adjust the file input display */
+.current-image-displayV009 {
+    flex: 1; /* Allow image display to take equal width */
+}
+
+/* Optional: Adjust textarea width if needed */
+.update-product-textareaV009 {
+    width: 95%; /* Ensure it takes full width */
+}
+.update-product-inputV009{
+    width: 95%;
+}

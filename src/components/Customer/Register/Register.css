@@ -1,0 +1,146 @@
+.register-page007 {
+  background-color: #D1E9F6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.container007 {
+  max-width: 400px;
+  width: 100%;
+  background: #F8F9FD;
+  border-radius: 40px;
+  padding: 0 25px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+}
+ 
+.heading007 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(16, 137, 211);
+}
+ 
+.form007 {
+  margin-top: 20px;
+}
+ 
+.input007 {
+  width: 90%;
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+ 
+.input007::-moz-placeholder {
+  color: rgb(170, 170, 170);
+}
+ 
+.input007::placeholder {
+  color: rgb(170, 170, 170);
+}
+ 
+.input007:focus {
+  outline: none;
+  border-inline: 2px solid #12B1D1;
+}
+ 
+.login-button007 {
+  display: block;
+  width: 30%;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+  color: white;
+  padding-block: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+ 
+.login-button007:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+ 
+.login-button007:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+ 
+.login-link007 {
+  margin-left: 5px;
+  color: #007bff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+ 
+.password-container {
+  position: relative;
+  width: 100%;
+}
+ 
+.eye-button {
+  font-size: 0.9rem;
+  position: absolute;
+  right: 10px;
+  top: 65%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(16, 137, 211);
+}
+ 
+ 
+ 
+@media (max-width: 768px) {
+  .container007 {
+      max-width: 400px;
+      padding: 15px 20px;
+  }
+ 
+  .heading007 {
+      font-size: 26px;
+  }
+ 
+  .input007 {
+      width: 90%;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .container007 {
+      max-width: 300px;
+      padding: 15px 15px;
+  }
+ 
+  .heading007 {
+      font-size: 20px;
+  }
+ 
+  .input007 {
+      padding: 10px;
+      width: 90%;
+  }
+ 
+  .login-button007 {
+      padding: 10px;
+  }
+
+
+
+
+
+}
+ 

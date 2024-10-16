@@ -1,0 +1,52 @@
+.modal-overlayV029 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.add-brand-titleV029{
+    color: white;
+}
+
+.add-brand-containerV029 {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #640D5F;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.close-modal-buttonV029 {
+    padding: 10px;
+    background-color: #dc3545; /* Red background for close button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above button */
+    transition: background-color 0.3s;
+}
+
+.add-brand-inputV029,
+.add-brand-fileV029 {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.close-modal-buttonV029:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+
+

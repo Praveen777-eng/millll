@@ -1,0 +1,62 @@
+.card009 {
+    background: linear-gradient(145deg, #ffffff, #f1f1f1); /* Glossy effect */
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    overflow: hidden; /* Prevents overflow */
+    font-family: "Raleway", sans-serif;
+}
+
+.card009 h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card009 .fa-icon009 {
+    margin-bottom: 10px;
+    color: #fff; /* Make icons white for better contrast */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Unique colors for each card */
+.card009:nth-child(1) {
+    background: linear-gradient(145deg, #ff6f61, #ff4b3a); /* Coral */
+}
+
+.card009:nth-child(2) {
+    background: linear-gradient(145deg, #6fa3ef, #4e91e7); /* Sky Blue */
+}
+
+.card009:nth-child(3) {
+    background: linear-gradient(145deg, #4caf50, #388e3c); /* Green */
+}
+
+.card-button009 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent */
+    color: #333;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.card-button009:hover {
+    background-color: rgba(255, 255, 255, 1); /* Full white on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Flexbox for card container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

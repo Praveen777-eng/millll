@@ -1,0 +1,220 @@
+.brand-list-containerb30 {
+    width: 100%;
+    /* margin: 0 auto; */
+    height:90vh;
+    overflow-y: auto;
+    text-align: center;
+    background-color: #e8e8e8;
+    padding-top: 70px;
+   
+}
+
+.selectasupplierb30 {
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-bottom: 20px; /* Space below the section */
+}
+
+.selectasupplierb30 h3 {
+    font-size: 1.5rem; /* Increase font size */
+    color: #c42323; /* Darker text color */
+    margin: 0; /* Remove default margin */
+}
+
+
+.back-button-contb30{
+    display: flex;
+   margin-bottom: 5px;
+    
+ }
+ 
+ .back-buttonb30 {
+     z-index:1000;
+     position: fixed;
+     top: 1000;
+     color: black;
+     border-color: black;
+     border-radius:8px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     margin-left: 5px;
+     margin-bottom: 10px;
+     
+ }
+ 
+ .back-buttonb30:hover {
+     background-color: #6EC207;
+     color: black;
+ }
+ 
+ .product-headb30{
+    text-align: center;
+    margin: auto;
+}
+
+.product-list-card-containerb30 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Decreased card size */
+    gap: 20px;
+    padding: 20px; /* Increased padding */
+}
+ 
+.product-list-cardb30 {
+    background-color: white;
+    border-radius: 10px; /* More rounded corners */
+    padding: px; /* Decreased padding */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Added background-color transition */
+    position: relative; /* For animation effects */
+    margin-left: 15px;
+}
+ 
+.product-list-cardb30:hover {
+    transform: translateY(-5px) scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.product-list-imageb30 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s; /* Smooth image transition */
+}
+ 
+/* .product-list-card30:hover .product-list-imageV025 {
+    transform: scale(1.1); 
+} */
+ 
+.product-list-titleb30 {
+    font-size: 16px; /* Decreased title size */
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333; /* Dark color for the product title */
+}
+ 
+.product-list-descriptionb30 {
+    font-size: 12px; /* Decreased description size */
+    color: #555;
+    height: 40px; /* Fixed height to limit text overflow */
+    overflow: hidden; /* Hide overflow text */
+}
+ 
+.product-list-volumeb30,
+.product-list-priceb30 {
+    font-size: 14px; /* Decreased font size */
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333; /* Darker color for contrast */
+}
+ 
+.product-list-imageb30 {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.3s; /* Smooth image transition */
+    mix-blend-mode: multiply;
+}
+
+.brand-list-titleb30 {
+    font-size:20px;
+    margin-bottom: 05px;
+}
+ 
+.search-barb30 {
+    padding: 10px;
+    width: 25%;
+    margin-bottom:10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin:auto;
+    
+}
+ 
+.card-containerb30 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+ 
+.brand-cardb30 {
+    width: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    
+}
+ 
+.brand-cardb30:hover {
+    transform: translateY(-5px);
+}
+ 
+.logo-containerb30 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+}
+ 
+.brand-logob30 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+ 
+.brand-nameb30 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+ 
+.update-buttonb30 {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+ 
+.update-buttonb30:hover {
+    background-color: #218838;
+}
+ 
+.loading-messageb30,
+.error-messageb30 {
+    font-size: 1.5em;
+    color: #333;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-buttonb30{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.2rem;
+    width: 70%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--light);
+    text-wrap: nowrap;
+    border: 1.5px solid gold;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}

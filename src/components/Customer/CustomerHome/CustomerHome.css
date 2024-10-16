@@ -1,0 +1,79 @@
+.customer-home122{
+    background-color: #a8d0e6;
+    margin-top: 75px;
+    display: auto;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-transform: capitalize;
+    
+  
+   
+}
+.customer-home22 {
+    font-family: Arial, sans-serif;
+   height:100%;
+   border-width: 3px;
+ 
+  
+}
+ 
+.error-message22 {
+    color: red;
+}
+ 
+.section-buttons22 {
+   
+    margin-bottom:5px;
+    text-align: center;
+}
+ 
+.btn-section22 {
+    padding: 10px 15px;
+    border: 2px solid black;
+    color:black;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+    background-color: white;
+}
+ 
+ 
+ 
+.btn-section22.active {
+    color: black;
+    background-color: #6EC207;
+    border: 2px solid black;
+    font-weight: bold;
+}
+ 
+.sections-wrapper22 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    height: 78vh;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.supplier-section22,
+.customer-section22,
+.brand-section22 {
+    flex: 1;
+    background-color: #e8e8e8;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: flex 0.3s ease-in-out;
+    height:100%;
+    overflow-y: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    /* border: 1px solid #eee;  */
+    
+}
